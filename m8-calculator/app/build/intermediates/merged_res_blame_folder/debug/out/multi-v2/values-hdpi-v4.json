@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "mooc.vandy.java4android.calculator.app-mergeDebugResources-13:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\prash\\.gradle\\caches\\transforms-3\\d86a4fe0887f04ab60b9137c0ac1a34a\\transformed\\appcompat-1.1.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

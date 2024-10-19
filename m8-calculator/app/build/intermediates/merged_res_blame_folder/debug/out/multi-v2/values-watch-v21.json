@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "mooc.vandy.java4android.calculator.app-mergeDebugResources-13:/values-watch-v21/values-watch-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\prash\\.gradle\\caches\\transforms-3\\d86a4fe0887f04ab60b9137c0ac1a34a\\transformed\\appcompat-1.1.0\\res\\values-watch-v21\\values-watch-v21.xml",
+                    "from": {
+                        "startLines": "2,6,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,271,499",
+                        "endLines": "5,9,13",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "266,494,724"
+                    }
+                }
+            ]
+        }
+    ]
+}
