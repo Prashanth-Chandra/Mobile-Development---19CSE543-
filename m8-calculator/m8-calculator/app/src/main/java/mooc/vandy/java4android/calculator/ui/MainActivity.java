@@ -100,8 +100,8 @@ public class MainActivity extends Activity implements ActivityInterface {
         // Operation selected by the user.
         final int operation = getOperationNumber();
 
-        int argOne;
-        int argTwo;
+        float argOne;
+        float argTwo;
 
         // First argument specified by the user.
         try {
@@ -127,16 +127,16 @@ public class MainActivity extends Activity implements ActivityInterface {
      * Get the value of the first user input operand.
      */
     @Override
-    public int getValueOne() {
-        return Integer.parseInt(mValueOne.getText().toString());
+    public float getValueOne() {
+        return Float.parseFloat(mValueOne.getText().toString());
     }
 
     /**
      * Get the value of the second user input operand.
      */
     @Override
-    public int getValueTwo() {
-        return Integer.parseInt(mValueTwo.getText().toString());
+    public float getValueTwo() {
+        return Float.parseFloat(mValueTwo.getText().toString());
     }
 
     /**

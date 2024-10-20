@@ -5,7 +5,7 @@ package mooc.vandy.java4android.calculator.logic;
  */
 public class Multiply {
     // TODO - add your solution here.
-    public int multiplication(int argumentOne,int argumentTwo){
+    public float multiplication(float argumentOne,float argumentTwo){
         return argumentOne*argumentTwo;
     }
 }

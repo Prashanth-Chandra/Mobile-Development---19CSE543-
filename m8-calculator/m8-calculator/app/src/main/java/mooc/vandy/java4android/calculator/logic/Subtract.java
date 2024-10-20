@@ -5,7 +5,7 @@ package mooc.vandy.java4android.calculator.logic;
  */
 public class Subtract {
     // TODO - add your solution here.
-    public int subtraction(int argumentOne,int argumentTwo){
+    public float subtraction(float argumentOne,float argumentTwo){
         return argumentOne-argumentTwo;
     }
 }

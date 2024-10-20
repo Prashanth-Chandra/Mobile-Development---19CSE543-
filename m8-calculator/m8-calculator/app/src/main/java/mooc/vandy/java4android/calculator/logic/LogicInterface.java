@@ -7,5 +7,5 @@ public interface LogicInterface {
     /**
      * Perform the @a operation on @a argumentOne and @a argumentTwo.
      */
-    void process(int argumentOne, int argumentTwo, int operation);
+    void process(float argumentOne, float argumentTwo, int operation);
 }

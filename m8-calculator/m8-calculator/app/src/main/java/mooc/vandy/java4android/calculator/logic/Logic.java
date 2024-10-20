@@ -27,21 +27,21 @@ public class Logic implements LogicInterface {
     /**
      * Perform the operation on argumentOne and argumentTwo.
      */
-    public void process(int argumentOne, int argumentTwo, int operation) {
+    public void process(float argumentOne, float argumentTwo, int operation) {
         // TODO - Put your code here.
         if(operation==1){
             Add a = new Add();
-            int result = a.addition(argumentOne,argumentTwo);
+            float result = a.addition(argumentOne,argumentTwo);
             mOut.print(String.valueOf(result));
         }
         else if(operation==2){
             Subtract s = new Subtract();
-            int result = s.subtraction(argumentOne,argumentTwo);
+            float result = s.subtraction(argumentOne,argumentTwo);
             mOut.print(String.valueOf(result));
         }
         else if(operation==3){
             Multiply m = new Multiply();
-            int result = m.multiplication(argumentOne,argumentTwo);
+            float result = m.multiplication(argumentOne,argumentTwo);
             mOut.print(String.valueOf(result));
         }
         else{

@@ -5,7 +5,7 @@ package mooc.vandy.java4android.calculator.logic;
  */
 public class Add {
     // TODO - add your solution here.
-    public int addition(int argumentOne,int argumentTwo){
+    public float addition(float argumentOne,float argumentTwo){
         return argumentOne+argumentTwo;
     }
 }

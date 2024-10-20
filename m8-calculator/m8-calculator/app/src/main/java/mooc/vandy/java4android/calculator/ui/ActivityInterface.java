@@ -7,12 +7,12 @@ public interface ActivityInterface {
     /**
      * Get the value of the first user input operand.
      */ 
-    int getValueOne();
+    float getValueOne();
 
     /**
      * Get the value of the second user input operand.
-     */ 
-    int getValueTwo();
+     */
+    float getValueTwo();
 
     /**
      * Get the value of the user input operation.

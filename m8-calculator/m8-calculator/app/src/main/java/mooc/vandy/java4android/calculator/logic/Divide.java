@@ -5,7 +5,7 @@ package mooc.vandy.java4android.calculator.logic;
  */
 public class Divide {
     // TODO - add your solution here.
-    public String division(int argumentOne, int argumentTwo) {
+    public String division(float argumentOne, float argumentTwo) {
         if (argumentTwo == 0) {
             throw new ArithmeticException("Division by zero is undefined.");
         }
